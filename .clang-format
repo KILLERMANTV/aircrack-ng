@@ -1,6 +1,7 @@
 ---
 AlignAfterOpenBracket: Align
 AlignConsecutiveAssignments: 'false'
+AlignConsecutiveDeclarations: 'false'
 AlignOperands: 'true'
 AlignTrailingComments: 'false'
 AllowShortCaseLabelsOnASingleLine: 'false'
@@ -10,12 +11,16 @@ AllowShortLoopsOnASingleLine: 'true'
 AlwaysBreakBeforeMultilineStrings: 'false'
 BinPackArguments: 'false'
 BinPackParameters: 'false'
-BreakBeforeBinaryOperators: NonAssignment
+BreakBeforeBinaryOperators: 'All'
 BreakBeforeBraces: Allman
+BreakBeforeTernaryOperators: 'true'
+ColumnLimit: 80
 ContinuationIndentWidth: '4'
 IndentCaseLabels: 'true'
 IndentWidth: '4'
-PointerAlignment: Right
+MaxEmptyLinesToKeep: 1
+NamespaceIndentation: 'None'
+PointerAlignment: 'Middle'
 ReflowComments: 'false'
 SortIncludes: 'false'
 SpaceAfterCStyleCast: 'true'

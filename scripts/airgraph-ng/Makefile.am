@@ -63,9 +63,6 @@ EXTRA_DIST = airgraph-ng \
 			 airodump-join \
 			 lib \
 			 setup.py \
-			 graphviz \
+			 airgraphviz \
 			 README \
 			 test
-
-
-@CODE_COVERAGE_RULES@
